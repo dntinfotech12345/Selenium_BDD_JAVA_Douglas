@@ -22,14 +22,34 @@ public class WaitHelper {
         wait = new WebDriverWait(driver, Duration.ofSeconds(timeOutInSeconds));
     }
 
+<<<<<<< HEAD
+    public String waitForElement(String element) {
+        logger.info("waiting for element visibility Of..{}", element);
+        try {
+            wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(element)));
+=======
     public WebElement waitForElement(WebElement element) {
         logger.info("waiting for element visibility Of..{}", element);
         try {
             wait.until(ExpectedConditions.visibilityOfElementLocated((By) element));
+>>>>>>> c5445263ed58008cab96613dbeac0fe03bb9d2e1
             logger.info("{}is visible..", element);
         } catch (Exception e) {
             logger.info("{}is not visible..", element);
         }
         return element;
     }
+<<<<<<< HEAD
+    public WebElement waitForElementToClick(WebElement element) {
+        logger.info("waiting for element to click .{}", element);
+        try {
+            wait.until(ExpectedConditions.elementToBeClickable((By) element));
+            logger.info("{}is clickable..", element);
+        } catch (Exception e) {
+            logger.info("{}is not clickable..", element);
+        }
+        return element;
+    }
+=======
+>>>>>>> c5445263ed58008cab96613dbeac0fe03bb9d2e1
 }
