@@ -5,7 +5,7 @@ name: Maven CI/CD
       - main
 jobs:
   build_and_test:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2
       - name: Set up JDK 23
@@ -13,4 +13,10 @@ jobs:
         with:
           java-version: 23.0.2
       - name: Build project with Maven
-        run: mvn -B package --file pom.xml
+        run: mvn -B package --file pom.xml     
+
+      - name: Build with Maven
+        run: mvn clean install
+
+      - name: Run Selenium Tests
+        run: mvn test -Dtest=TestRunner
