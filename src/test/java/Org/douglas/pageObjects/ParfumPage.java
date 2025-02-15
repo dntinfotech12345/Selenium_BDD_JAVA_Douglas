@@ -1,6 +1,6 @@
 package Org.douglas.pageObjects;
 
-import Org.douglas.helper.WaitHelper;
+import Org.douglas.helper.LoggerHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -46,7 +46,7 @@ public class ParfumPage extends BasePage {
     @FindBy(xpath = "//*[@id='main-content']/div/div/div/h1")
     private WebElement markenPageTitle;
 
-    @FindBy (xpath = "//*[@id='main-content']/div/div/div[1]/div/div[2]/div[3]/div[1]/div[2]/button[2]")
+    @FindBy(xpath = "//*[@id='main-content']/div/div/div[1]/div/div[2]/div[3]/div[1]/div[2]/button[2]")
     private WebElement selectedFilterValue;
 
 
@@ -59,10 +59,11 @@ public class ParfumPage extends BasePage {
             wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[text()='Deine Meinung ist gefragt']")));
             randonPopupOnPerfumePage.click();
         } catch (Exception e) {
-            System.out.println("Pop-Up handled successfully");        }
+            e.printStackTrace();
+        }
         WebElement dropdown = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='facet__title' and text()='" + dropdownOption + "']")));
         dropdown.click();
-        System.out.println("Dropdown filter option '" + dropdownOption + "' selected");
+        LoggerHelper.getLogger(ParfumPage.class).info("Dropdown filter option '" + dropdownOption + "' selected");
     }
 
     public void selectDropdownOption(String filterOption) {
@@ -70,7 +71,7 @@ public class ParfumPage extends BasePage {
                 By.xpath("//div[@class='facet-option__label']//div[text()='" + filterOption + "']")
         ));
         filterOpt.click();
-       }
+    }
 
     public void getTheFilterTextAndVerify(String actualFilterText) {
 
@@ -81,11 +82,10 @@ public class ParfumPage extends BasePage {
         for (WebElement filter : filters) {
             String filterText = filter.getText();
             if (filterText.contains(actualFilterText)) {
-                System.out.println("The filter '" + actualFilterText + "' is applied.");
                 return;
             }
         }
-      }
+    }
 
     public void scrollToFacetTitle() {
         wait.until(ExpectedConditions.elementToBeClickable(aktionenTitle));
@@ -98,7 +98,7 @@ public class ParfumPage extends BasePage {
         return markenPageTitle.getText();
     }
 
-    public String getFilteredValue(){
+    public String getFilteredValue() {
         return selectedFilterValue.getText();
     }
 }

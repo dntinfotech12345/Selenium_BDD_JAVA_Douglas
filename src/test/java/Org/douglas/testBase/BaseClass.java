@@ -30,7 +30,6 @@ public class BaseClass {
         if (executionEnv.equalsIgnoreCase("remote")) {
             DesiredCapabilities capabilities = new DesiredCapabilities();
 
-            //os
             switch (os) {
                 case "windows":
                     capabilities.setPlatform(Platform.WINDOWS);
@@ -42,7 +41,6 @@ public class BaseClass {
                     capabilities.setPlatform(Platform.LINUX);
                     break;
                 default:
-                    System.out.println("No matching OS");
                     return null;
             }
 
@@ -58,7 +56,6 @@ public class BaseClass {
                     capabilities.setBrowserName("firefox");
                     break;
                 default:
-                    System.out.println("No matching browser");
                     return null;
             }
             driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities);
@@ -75,8 +72,8 @@ public class BaseClass {
                     driver = new FirefoxDriver();
                     break;
                 default:
-                    System.out.println("No matching browser");
-                    driver = new ChromeDriver();;
+                    driver = new ChromeDriver();
+
             }
         }
         driver.manage().deleteAllCookies();
@@ -90,6 +87,4 @@ public class BaseClass {
     public static WebDriver getDriver() {
         return driver;
     }
-
-
 }
