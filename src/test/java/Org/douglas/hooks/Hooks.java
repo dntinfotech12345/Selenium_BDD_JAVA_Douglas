@@ -19,7 +19,7 @@ public class Hooks {
 
     @Before
     public void setup() throws Exception {
-        driver = BaseClass.initilizeBrowser();
+        driver = BaseClass.initializeBrowser();
         properties = ConfigReader.getProperties();
         driver.manage().window().maximize();
         driver.get(properties.getProperty("webURL"));

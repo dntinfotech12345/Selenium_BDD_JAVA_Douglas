@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 
-        features = {"src/test/resources/Features/perfumPage.feature"},
+        features = {"src/test/resources/Features/parfumPage.feature"},
         glue = {"Org.douglas.stepDefinitions", "Org.douglas.hooks"},
 		plugin = {
 
