@@ -12,7 +12,7 @@ import org.openqa.selenium.WebDriver;
 import java.util.Properties;
 
 
-public class Hooks {
+public class DouglasTest {
 
     WebDriver driver;
     Properties properties;

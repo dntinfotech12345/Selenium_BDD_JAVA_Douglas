@@ -28,11 +28,12 @@ public class HomePage extends BasePage {
         elementInsideShadow.click();
     }
 
-    private By headingTabName(String tabName) {
+    public By headingTabName(String tabName) {
         return By.xpath("//a[@type='nav-heading' and text()='" + tabName + "']");
     }
 
     public void clickHomePageTab(String tabName) {
         driver.findElement(headingTabName(tabName)).click();
+
     }
 }

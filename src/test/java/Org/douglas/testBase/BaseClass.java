@@ -2,6 +2,7 @@ package Org.douglas.testBase;
 
 import Org.douglas.enums.BrowserEnum;
 import Org.douglas.enums.OSEnum;
+import Org.douglas.pageObjects.BasePage;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -17,10 +18,14 @@ import java.util.Properties;
 
 import static Org.douglas.util.ConfigReader.getProperties;
 
-public class BaseClass {
+public class BaseClass extends BasePage {
 
-    static WebDriver driver;
-    static Properties properties;
+    public static WebDriver driver;
+    public static Properties properties;
+
+    public BaseClass(WebDriver driver) {
+        super(driver);
+    }
 
     public static WebDriver initializeBrowser() throws IOException {
         properties = getProperties();
