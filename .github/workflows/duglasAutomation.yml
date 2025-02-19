@@ -25,6 +25,8 @@ jobs:
         with:
           maven-version: 3.9.9
 
+      - name: Build the project with Maven
+        run: mvn clean install -B --file pom.xml
 
       - name: Run TestNG Suite
         run: mvn test -DsuiteXmlFile=testNg.xml
