@@ -30,7 +30,7 @@ jobs:
 
       - name: Upload Extent Report
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v2
         with:
           name: extent-report
           path: Report/DouglastestAutomation/
