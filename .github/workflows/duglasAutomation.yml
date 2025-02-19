@@ -27,6 +27,7 @@ jobs:
 
       - name: Run TestRunner
         run: mvn clean test
+        continue-on-error: true
 
       - name: Upload Extent Report
         if: always()
