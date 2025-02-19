@@ -19,6 +19,7 @@ public class ParfumStep {
     public void launchWebURL() {
         homePage = new HomePage(BaseClass.getDriver());
         parfumPage = new ParfumPage(BaseClass.getDriver());
+
     }
 
     @Then("I accept the cookie consent")

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Douglas Automation Test Suite">
-    <listeners>
-        <listener class-name="Org.douglas.listeners.ExtentReportListener"/>
-    </listeners>
     <test name="Filter Parfum Product" preserve-order="true">
         <classes>
             <class name="Org.douglas.testRunner.TestRunner"/>

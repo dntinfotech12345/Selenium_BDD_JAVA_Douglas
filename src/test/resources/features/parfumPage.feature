@@ -1,6 +1,6 @@
 Feature: Verify the Parfum Product Based on Filter
 
-  Scenario Outline: Verify the filter option in Aktionen dropdown
+  Scenario Outline: Verify the "<FilterOption>" filter option in Aktionen dropdown
     Given I navigate to the website
     Then I accept the cookie consent
     When I click on "<Tab>" tab
