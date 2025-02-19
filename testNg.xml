@@ -6,4 +6,9 @@
             <class name="Org.douglas.testRunner.TestRunner"/>
         </classes>
     </test>
+    <test name="Rerun failed tests">
+        <classes>
+            <class name="Org.douglas.testRunner.FailedRun"/>
+        </classes>
+    </test>
 </suite>
