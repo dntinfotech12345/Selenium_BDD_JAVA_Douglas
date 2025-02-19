@@ -21,11 +21,8 @@ jobs:
           java-version: '23'
 
 
-      - name: Build and Install with Maven
-        run: mvn clean install -B --file pom.xml
-
       - name: Run TestNG Suite
-        run: mvn test -DsuiteXmlFile=testNg.xml -Dmaven.test.failure.ignore=true
+        run: mvn test -DsuiteXmlFile=testNg.xml
 
       - name: Upload Extent Report
         if: always()
