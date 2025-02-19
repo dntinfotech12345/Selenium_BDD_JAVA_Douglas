@@ -25,8 +25,8 @@ jobs:
         with:
           maven-version: 3.9.9
 
-      - name: Run TestNG Suite
-        run: mvn clean test -DsuiteXmlFile=src/test/resources/testNg.xml
+      - name: Run TestRunner
+        run: mvn clean test
 
       - name: Upload Extent Report
         if: always()
