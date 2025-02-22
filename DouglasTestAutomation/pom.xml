@@ -91,7 +91,6 @@
             <groupId>tech.grasshopper</groupId>
             <artifactId>extentreports-cucumber7-adapter</artifactId>
             <version>${extent.reports.version}</version>
-
         </dependency>
         <dependency>
             <groupId>org.testng</groupId>

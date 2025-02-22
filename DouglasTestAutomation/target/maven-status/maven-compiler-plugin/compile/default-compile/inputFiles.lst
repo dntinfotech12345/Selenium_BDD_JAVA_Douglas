@@ -1,0 +1,14 @@
+C:\Users\DELL\IdeaProjects\Selenium_BDD_JAVA_Douglas\DouglasTestAutomation\src\main\java\Org\douglas\hooks\DouglasTest.java
+C:\Users\DELL\IdeaProjects\Selenium_BDD_JAVA_Douglas\DouglasTestAutomation\src\main\java\Org\douglas\util\ConfigReader.java
+C:\Users\DELL\IdeaProjects\Selenium_BDD_JAVA_Douglas\DouglasTestAutomation\src\main\java\Org\douglas\testBase\BaseClass.java
+C:\Users\DELL\IdeaProjects\Selenium_BDD_JAVA_Douglas\DouglasTestAutomation\src\main\java\Org\douglas\helper\LoggerHelper.java
+C:\Users\DELL\IdeaProjects\Selenium_BDD_JAVA_Douglas\DouglasTestAutomation\src\main\java\Org\douglas\pageObjects\HomePage.java
+C:\Users\DELL\IdeaProjects\Selenium_BDD_JAVA_Douglas\DouglasTestAutomation\src\main\java\Org\douglas\pageObjects\ParfumPage.java
+C:\Users\DELL\IdeaProjects\Selenium_BDD_JAVA_Douglas\DouglasTestAutomation\src\main\java\Org\douglas\helper\WaitHelper.java
+C:\Users\DELL\IdeaProjects\Selenium_BDD_JAVA_Douglas\DouglasTestAutomation\src\main\java\Org\douglas\pageObjects\BasePage.java
+C:\Users\DELL\IdeaProjects\Selenium_BDD_JAVA_Douglas\DouglasTestAutomation\src\main\java\Org\douglas\testRunner\FailedRun.java
+C:\Users\DELL\IdeaProjects\Selenium_BDD_JAVA_Douglas\DouglasTestAutomation\src\main\java\Org\douglas\util\ActionUtil.java
+C:\Users\DELL\IdeaProjects\Selenium_BDD_JAVA_Douglas\DouglasTestAutomation\src\main\java\Org\douglas\enums\BrowserEnum.java
+C:\Users\DELL\IdeaProjects\Selenium_BDD_JAVA_Douglas\DouglasTestAutomation\src\main\java\Org\douglas\testRunner\TestRunner.java
+C:\Users\DELL\IdeaProjects\Selenium_BDD_JAVA_Douglas\DouglasTestAutomation\src\main\java\Org\douglas\enums\OSEnum.java
+C:\Users\DELL\IdeaProjects\Selenium_BDD_JAVA_Douglas\DouglasTestAutomation\src\main\java\Org\douglas\stepDefinitions\ParfumStep.java

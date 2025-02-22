@@ -1,0 +1,2141 @@
+# Created at 2025-02-22T19:38:35.896
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readFully(DataInputStream.java:210)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:385)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+
+# Created at 2025-02-22T19:38:40.093
+Unexpected IOException with stream:   And I accept the cookie consent                                           # Org.douglas.stepDefinitions.ParfumStep.acceptCookieConsent()
+
+
+# Created at 2025-02-22T19:38:40.149
+Unexpected IOException with stream:   When I click on "PARFUM" tab                                              # Org.douglas.stepDefinitions.ParfumStep.clickOnTab(java.lang.String)
+
+
+# Created at 2025-02-22T19:38:40.168
+Unexpected IOException with stream:   Then I verify that I was landed on the parfum page                        # Org.douglas.stepDefinitions.ParfumStep.verifyUserOnParfumPage()
+      org.openqa.selenium.NoSuchSessionException: invalid session id
+      Build info: version: '4.28.1', revision: '73f5ad48a2'
+      System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Command: [3d5aba108c7f364213cd1fdba9a73093, getCurrentUrl {}]
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58251}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58251/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+      Session ID: 3d5aba108c7f364213cd1fdba9a73093
+      	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+      	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+      	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+      	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:325)
+      	at Org.douglas.pageObjects.ParfumPage.getParfumPageUrl(ParfumPage.java:58)
+      	at Org.douglas.stepDefinitions.ParfumStep.verifyUserOnParfumPage(ParfumStep.java:45)
+      	at ✽.I verify that I was landed on the parfum page(file:///C:/Users/DELL/IdeaProjects/Selenium_BDD_JAVA_Douglas/DouglasTestAutomation/src/test/resources/features/parfumPage.feature:9)
+
+
+# Created at 2025-02-22T19:38:40.171
+Unexpected IOException with stream:   When I select the "Aktionen" dropdown                                     # Org.douglas.stepDefinitions.ParfumStep.iSelectTheDropdown(java.lang.String)
+
+
+# Created at 2025-02-22T19:38:40.173
+Unexpected IOException with stream:   Then I select the "Limitiert" filter option from the dropdown             # Org.douglas.stepDefinitions.ParfumStep.iSelectTheFilterOption(java.lang.String)
+
+
+# Created at 2025-02-22T19:38:40.175
+Unexpected IOException with stream:   Then I verify the filter option from dropdown                             # Org.douglas.stepDefinitions.ParfumStep.verifyDropDownFilter()
+
+
+# Created at 2025-02-22T19:38:40.179
+Unexpected IOException with stream: Error capturing screenshot for scenario: Verify the "Limitiert" filter option in Aktionen dropdown
+
+
+# Created at 2025-02-22T19:38:40.181
+Unexpected IOException with stream: org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3d5aba108c7f364213cd1fdba9a73093, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58251}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58251/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3d5aba108c7f364213cd1fdba9a73093
+
+# Created at 2025-02-22T19:38:40.181
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.182
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+
+# Created at 2025-02-22T19:38:40.184
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.184
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+
+# Created at 2025-02-22T19:38:40.186
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.187
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+
+# Created at 2025-02-22T19:38:40.188
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.189
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+
+# Created at 2025-02-22T19:38:40.189
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.190
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+
+# Created at 2025-02-22T19:38:40.191
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.191
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+
+# Created at 2025-02-22T19:38:40.193
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.194
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+
+# Created at 2025-02-22T19:38:40.195
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.196
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+
+# Created at 2025-02-22T19:38:40.197
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.198
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+
+# Created at 2025-02-22T19:38:40.199
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.200
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+
+# Created at 2025-02-22T19:38:40.200
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.202
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+
+# Created at 2025-02-22T19:38:40.202
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.203
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+
+# Created at 2025-02-22T19:38:40.205
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.205
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:334)
+
+# Created at 2025-02-22T19:38:40.206
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.207
+Unexpected IOException with stream: 	at Org.douglas.hooks.DouglasTest.addScreenshot(DouglasTest.java:37)
+
+# Created at 2025-02-22T19:38:40.208
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.209
+Unexpected IOException with stream: 	at Org.douglas.hooks.DouglasTest.tearDown(DouglasTest.java:50)
+
+# Created at 2025-02-22T19:38:40.211
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.212
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+# Created at 2025-02-22T19:38:40.212
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.213
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+# Created at 2025-02-22T19:38:40.214
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.215
+Unexpected IOException with stream: 	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+
+# Created at 2025-02-22T19:38:40.215
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.216
+Unexpected IOException with stream: 	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+
+# Created at 2025-02-22T19:38:40.218
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.219
+Unexpected IOException with stream: 	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+
+# Created at 2025-02-22T19:38:40.220
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.221
+Unexpected IOException with stream: 	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:68)
+
+# Created at 2025-02-22T19:38:40.224
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.225
+Unexpected IOException with stream: 	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:47)
+
+# Created at 2025-02-22T19:38:40.226
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.228
+Unexpected IOException with stream: 	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+
+# Created at 2025-02-22T19:38:40.230
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.231
+Unexpected IOException with stream: 	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+
+# Created at 2025-02-22T19:38:40.231
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.232
+Unexpected IOException with stream: 	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+
+# Created at 2025-02-22T19:38:40.233
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.235
+Unexpected IOException with stream: 	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+
+# Created at 2025-02-22T19:38:40.236
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.236
+Unexpected IOException with stream: 	at io.cucumber.core.runner.TestCase.run(TestCase.java:90)
+
+# Created at 2025-02-22T19:38:40.238
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.239
+Unexpected IOException with stream: 	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+
+# Created at 2025-02-22T19:38:40.240
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.241
+Unexpected IOException with stream: 	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
+
+# Created at 2025-02-22T19:38:40.242
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.243
+Unexpected IOException with stream: 	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+
+# Created at 2025-02-22T19:38:40.243
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.245
+Unexpected IOException with stream: 	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+
+# Created at 2025-02-22T19:38:40.246
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.247
+Unexpected IOException with stream: 	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+
+# Created at 2025-02-22T19:38:40.248
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.249
+Unexpected IOException with stream: 	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+
+# Created at 2025-02-22T19:38:40.252
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.254
+Unexpected IOException with stream: 	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+
+# Created at 2025-02-22T19:38:40.255
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.256
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+# Created at 2025-02-22T19:38:40.257
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.258
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+# Created at 2025-02-22T19:38:40.258
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.260
+Unexpected IOException with stream: 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+
+# Created at 2025-02-22T19:38:40.261
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.262
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+
+# Created at 2025-02-22T19:38:40.262
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.263
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+
+# Created at 2025-02-22T19:38:40.265
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.266
+Unexpected IOException with stream: 	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+
+# Created at 2025-02-22T19:38:40.266
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.267
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+
+# Created at 2025-02-22T19:38:40.268
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.269
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+
+# Created at 2025-02-22T19:38:40.269
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.271
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+
+# Created at 2025-02-22T19:38:40.272
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.272
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+
+# Created at 2025-02-22T19:38:40.273
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.273
+Unexpected IOException with stream: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+# Created at 2025-02-22T19:38:40.274
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.275
+Unexpected IOException with stream: 	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+
+# Created at 2025-02-22T19:38:40.275
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.276
+Unexpected IOException with stream: 	at org.testng.TestRunner.run(TestRunner.java:614)
+
+# Created at 2025-02-22T19:38:40.277
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.278
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+
+# Created at 2025-02-22T19:38:40.278
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.280
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+
+# Created at 2025-02-22T19:38:40.280
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.281
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+
+# Created at 2025-02-22T19:38:40.282
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.282
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+
+# Created at 2025-02-22T19:38:40.283
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.284
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+
+# Created at 2025-02-22T19:38:40.285
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.285
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+
+# Created at 2025-02-22T19:38:40.286
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.288
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+
+# Created at 2025-02-22T19:38:40.289
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.290
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+
+# Created at 2025-02-22T19:38:40.291
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.292
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuites(TestNG.java:1112)
+
+# Created at 2025-02-22T19:38:40.292
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.293
+Unexpected IOException with stream: 	at org.testng.TestNG.run(TestNG.java:1079)
+
+# Created at 2025-02-22T19:38:40.294
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.295
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+
+# Created at 2025-02-22T19:38:40.296
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.296
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+
+# Created at 2025-02-22T19:38:40.297
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.298
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+
+# Created at 2025-02-22T19:38:40.298
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.300
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2025-02-22T19:38:40.300
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.301
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2025-02-22T19:38:40.302
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.303
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2025-02-22T19:38:40.304
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.305
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2025-02-22T19:38:40.305
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:40.341
+Unexpected IOException: 8,1,Org.douglas.testRunner.TestRunner,runScenario(Org.douglas.testRunner.TestRunner),null,invalid session id\000ABuild info: version: '4.28.1'\002C revision: '73f5ad48a2'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '23.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [3d5aba108c7f364213cd1fdba9a73093\002C getCurrentUrl {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 133.0.6943.127\002C chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b...\002C userDataDir: C:\005CUsers\005CDELL\005CAppData\005CLocal...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:58251}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:58251/devtoo...\002C se:cdpVersion: 133.0.6943.127\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 3d5aba108c7f364213cd1fdba9a73093,null,invalid session id\000ABuild info: version: '4.28.1'\002C revision: '73f5ad48a2'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '23.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [3d5aba108c7f364213cd1fdba9a73093\002C getCurrentUrl {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 133.0.6943.127\002C chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b...\002C userDataDir: C:\005CUsers\005CDELL\005CAppData\005CLocal...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:58251}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:58251/devtoo...\002C se:cdpVersion: 133.0.6943.127\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 3d5aba108c7f364213cd1fdba9a73093,TestRunner.runScenario \00BB NoSuchSession invalid session id\000ABuild info: version:...,org.openqa.selenium.NoSuchSessionException: \000Ainvalid session id\000ABuild info: version: '4.28.1'\002C revision: '73f5ad48a2'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '23.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [3d5aba108c7f364213cd1fdba9a73093\002C getCurrentUrl {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 133.0.6943.127\002C chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b...\002C userDataDir: C:\005CUsers\005CDELL\005CAppData\005CLocal...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:58251}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:58251/devtoo...\002C se:cdpVersion: 133.0.6943.127\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 3d5aba108c7f364213cd1fdba9a73093\000A
+
+
+# Created at 2025-02-22T19:38:40.343
+Unexpected IOException: 5,1,Org.douglas.testRunner.TestRunner,runScenario(Org.douglas.testRunner.TestRunner),cucumber,null,null
+
+
+# Created at 2025-02-22T19:38:40.352
+Unexpected IOException with stream: 
+Scenario: Verify the title on parfum page        # src/test/resources/features/parfumPage.feature:20
+
+
+# Created at 2025-02-22T19:38:41.690
+Unexpected IOException with stream: Feb 22, 2025 7:38:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
+
+
+# Created at 2025-02-22T19:38:44.588
+Unexpected IOException with stream:   Given I navigate to the website                # Org.douglas.stepDefinitions.ParfumStep.launchWebURL()
+
+
+# Created at 2025-02-22T19:38:49.620
+Unexpected IOException with stream:   And I accept the cookie consent                # Org.douglas.stepDefinitions.ParfumStep.acceptCookieConsent()
+
+
+# Created at 2025-02-22T19:38:49.721
+Unexpected IOException with stream:   When I click on "PARFUM" tab                   # Org.douglas.stepDefinitions.ParfumStep.clickOnTab(java.lang.String)
+
+
+# Created at 2025-02-22T19:38:49.728
+Unexpected IOException with stream:   Then I verify that I was landed on parfum page # Org.douglas.stepDefinitions.ParfumStep.verifyTitle()
+      org.openqa.selenium.NoSuchSessionException: invalid session id
+      Build info: version: '4.28.1', revision: '73f5ad48a2'
+      System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Command: [eee49983369fb065ec1bd71491251592, findElement {using=xpath, value=//*[@id='main-content']/div/div/div/h1}]
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58272}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58272/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+      Session ID: eee49983369fb065ec1bd71491251592
+      	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+      	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+      	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+      	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+      	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+      	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+      	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+      	at jdk.proxy2/jdk.proxy2.$Proxy38.getText(Unknown Source)
+      	at Org.douglas.pageObjects.ParfumPage.getTitle(ParfumPage.java:101)
+      	at Org.douglas.stepDefinitions.ParfumStep.verifyTitle(ParfumStep.java:67)
+      	at ✽.I verify that I was landed on parfum page(file:///C:/Users/DELL/IdeaProjects/Selenium_BDD_JAVA_Douglas/DouglasTestAutomation/src/test/resources/features/parfumPage.feature:22)
+
+
+# Created at 2025-02-22T19:38:49.735
+Unexpected IOException with stream: Error capturing screenshot for scenario: Verify the title on parfum page
+
+
+# Created at 2025-02-22T19:38:49.741
+Unexpected IOException with stream: org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eee49983369fb065ec1bd71491251592, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58272}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58272/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eee49983369fb065ec1bd71491251592
+
+# Created at 2025-02-22T19:38:49.742
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.742
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+
+# Created at 2025-02-22T19:38:49.744
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.745
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+
+# Created at 2025-02-22T19:38:49.746
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.747
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+
+# Created at 2025-02-22T19:38:49.749
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.750
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+
+# Created at 2025-02-22T19:38:49.751
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.753
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+
+# Created at 2025-02-22T19:38:49.754
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.755
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+
+# Created at 2025-02-22T19:38:49.755
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.755
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+
+# Created at 2025-02-22T19:38:49.757
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.758
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+
+# Created at 2025-02-22T19:38:49.759
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.760
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+
+# Created at 2025-02-22T19:38:49.761
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.762
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+
+# Created at 2025-02-22T19:38:49.762
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.763
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+
+# Created at 2025-02-22T19:38:49.764
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.765
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+
+# Created at 2025-02-22T19:38:49.767
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.769
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:334)
+
+# Created at 2025-02-22T19:38:49.769
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.770
+Unexpected IOException with stream: 	at Org.douglas.hooks.DouglasTest.addScreenshot(DouglasTest.java:37)
+
+# Created at 2025-02-22T19:38:49.771
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.772
+Unexpected IOException with stream: 	at Org.douglas.hooks.DouglasTest.tearDown(DouglasTest.java:50)
+
+# Created at 2025-02-22T19:38:49.774
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.775
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+# Created at 2025-02-22T19:38:49.776
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.777
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+# Created at 2025-02-22T19:38:49.778
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.779
+Unexpected IOException with stream: 	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+
+# Created at 2025-02-22T19:38:49.779
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.780
+Unexpected IOException with stream: 	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+
+# Created at 2025-02-22T19:38:49.781
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.782
+Unexpected IOException with stream: 	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+
+# Created at 2025-02-22T19:38:49.783
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.783
+Unexpected IOException with stream: 	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:68)
+
+# Created at 2025-02-22T19:38:49.784
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.786
+Unexpected IOException with stream: 	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:47)
+
+# Created at 2025-02-22T19:38:49.786
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.787
+Unexpected IOException with stream: 	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+
+# Created at 2025-02-22T19:38:49.788
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.789
+Unexpected IOException with stream: 	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+
+# Created at 2025-02-22T19:38:49.790
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.791
+Unexpected IOException with stream: 	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+
+# Created at 2025-02-22T19:38:49.791
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.791
+Unexpected IOException with stream: 	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+
+# Created at 2025-02-22T19:38:49.793
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.794
+Unexpected IOException with stream: 	at io.cucumber.core.runner.TestCase.run(TestCase.java:90)
+
+# Created at 2025-02-22T19:38:49.794
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.795
+Unexpected IOException with stream: 	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+
+# Created at 2025-02-22T19:38:49.795
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.796
+Unexpected IOException with stream: 	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
+
+# Created at 2025-02-22T19:38:49.796
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.797
+Unexpected IOException with stream: 	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+
+# Created at 2025-02-22T19:38:49.799
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.799
+Unexpected IOException with stream: 	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+
+# Created at 2025-02-22T19:38:49.800
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.802
+Unexpected IOException with stream: 	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+
+# Created at 2025-02-22T19:38:49.802
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.803
+Unexpected IOException with stream: 	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+
+# Created at 2025-02-22T19:38:49.804
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.805
+Unexpected IOException with stream: 	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+
+# Created at 2025-02-22T19:38:49.805
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.806
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+# Created at 2025-02-22T19:38:49.807
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.808
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+# Created at 2025-02-22T19:38:49.808
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.808
+Unexpected IOException with stream: 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+
+# Created at 2025-02-22T19:38:49.810
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.811
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+
+# Created at 2025-02-22T19:38:49.811
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.812
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+
+# Created at 2025-02-22T19:38:49.813
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.813
+Unexpected IOException with stream: 	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+
+# Created at 2025-02-22T19:38:49.814
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.815
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+
+# Created at 2025-02-22T19:38:49.817
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.817
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+
+# Created at 2025-02-22T19:38:49.819
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.820
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+
+# Created at 2025-02-22T19:38:49.820
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.821
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+
+# Created at 2025-02-22T19:38:49.822
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.825
+Unexpected IOException with stream: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+# Created at 2025-02-22T19:38:49.826
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.827
+Unexpected IOException with stream: 	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+
+# Created at 2025-02-22T19:38:49.828
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.830
+Unexpected IOException with stream: 	at org.testng.TestRunner.run(TestRunner.java:614)
+
+# Created at 2025-02-22T19:38:49.830
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.831
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+
+# Created at 2025-02-22T19:38:49.832
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.833
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+
+# Created at 2025-02-22T19:38:49.834
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.834
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+
+# Created at 2025-02-22T19:38:49.836
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.837
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+
+# Created at 2025-02-22T19:38:49.837
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.838
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+
+# Created at 2025-02-22T19:38:49.839
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.840
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+
+# Created at 2025-02-22T19:38:49.841
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.841
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+
+# Created at 2025-02-22T19:38:49.843
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.843
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+
+# Created at 2025-02-22T19:38:49.844
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.845
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuites(TestNG.java:1112)
+
+# Created at 2025-02-22T19:38:49.846
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.847
+Unexpected IOException with stream: 	at org.testng.TestNG.run(TestNG.java:1079)
+
+# Created at 2025-02-22T19:38:49.848
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.849
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+
+# Created at 2025-02-22T19:38:49.850
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.851
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+
+# Created at 2025-02-22T19:38:49.852
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.853
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+
+# Created at 2025-02-22T19:38:49.853
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.854
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2025-02-22T19:38:49.854
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.856
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2025-02-22T19:38:49.857
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.857
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2025-02-22T19:38:49.858
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.858
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2025-02-22T19:38:49.860
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:49.896
+Unexpected IOException: 8,1,Org.douglas.testRunner.TestRunner,runScenario(Org.douglas.testRunner.TestRunner),null,invalid session id\000ABuild info: version: '4.28.1'\002C revision: '73f5ad48a2'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '23.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [eee49983369fb065ec1bd71491251592\002C findElement {using=xpath\002C value=//*[@id='main-content']/div/div/div/h1}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 133.0.6943.127\002C chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b...\002C userDataDir: C:\005CUsers\005CDELL\005CAppData\005CLocal...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:58272}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:58272/devtoo...\002C se:cdpVersion: 133.0.6943.127\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: eee49983369fb065ec1bd71491251592,null,invalid session id\000ABuild info: version: '4.28.1'\002C revision: '73f5ad48a2'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '23.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [eee49983369fb065ec1bd71491251592\002C findElement {using=xpath\002C value=//*[@id='main-content']/div/div/div/h1}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 133.0.6943.127\002C chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b...\002C userDataDir: C:\005CUsers\005CDELL\005CAppData\005CLocal...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:58272}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:58272/devtoo...\002C se:cdpVersion: 133.0.6943.127\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: eee49983369fb065ec1bd71491251592,TestRunner.runScenario \00BB NoSuchSession invalid session id\000ABuild info: version:...,org.openqa.selenium.NoSuchSessionException: \000Ainvalid session id\000ABuild info: version: '4.28.1'\002C revision: '73f5ad48a2'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '23.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [eee49983369fb065ec1bd71491251592\002C findElement {using=xpath\002C value=//*[@id='main-content']/div/div/div/h1}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 133.0.6943.127\002C chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b...\002C userDataDir: C:\005CUsers\005CDELL\005CAppData\005CLocal...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:58272}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:58272/devtoo...\002C se:cdpVersion: 133.0.6943.127\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: eee49983369fb065ec1bd71491251592\000A
+
+
+# Created at 2025-02-22T19:38:50.654
+Unexpected IOException: 5,1,Org.douglas.testRunner.FailedRun,runScenario(Org.douglas.testRunner.FailedRun),cucumber,null,null
+
+
+# Created at 2025-02-22T19:38:50.662
+Unexpected IOException with stream: 
+Scenario Outline: Verify the "NEU" filter option in Aktionen dropdown # src/test/resources/features/parfumPage.feature:17
+
+
+# Created at 2025-02-22T19:38:52.028
+Unexpected IOException with stream: Feb 22, 2025 7:38:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
+
+
+# Created at 2025-02-22T19:38:53.432
+Unexpected IOException with stream:   Given I navigate to the website                                     # Org.douglas.stepDefinitions.ParfumStep.launchWebURL()
+
+
+# Created at 2025-02-22T19:38:58.471
+Unexpected IOException with stream:   And I accept the cookie consent                                     # Org.douglas.stepDefinitions.ParfumStep.acceptCookieConsent()
+
+
+# Created at 2025-02-22T19:38:58.571
+Unexpected IOException with stream:   When I click on "PARFUM" tab                                        # Org.douglas.stepDefinitions.ParfumStep.clickOnTab(java.lang.String)
+
+
+# Created at 2025-02-22T19:38:58.578
+Unexpected IOException with stream:   Then I verify that I was landed on the parfum page                  # Org.douglas.stepDefinitions.ParfumStep.verifyUserOnParfumPage()
+
+
+# Created at 2025-02-22T19:38:58.580
+Unexpected IOException with stream:       org.openqa.selenium.NoSuchSessionException: invalid session id
+      Build info: version: '4.28.1', revision: '73f5ad48a2'
+      System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Command: [1729dca62ceb900459a9699b253c5236, getCurrentUrl {}]
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58305}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58305/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+      Session ID: 1729dca62ceb900459a9699b253c5236
+      	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+      	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+      	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+      	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:325)
+      	at Org.douglas.pageObjects.ParfumPage.getParfumPageUrl(ParfumPage.java:58)
+      	at Org.douglas.stepDefinitions.ParfumStep.verifyUserOnParfumPage(ParfumStep.java:45)
+      	at ✽.I verify that I was landed on the parfum page(file:///C:/Users/DELL/IdeaProjects/Selenium_BDD_JAVA_Douglas/DouglasTestAutomation/src/test/resources/features/parfumPage.feature:9)
+
+
+# Created at 2025-02-22T19:38:58.582
+Unexpected IOException with stream:   When I select the "Aktionen" dropdown                               # Org.douglas.stepDefinitions.ParfumStep.iSelectTheDropdown(java.lang.String)
+
+
+# Created at 2025-02-22T19:38:58.583
+Unexpected IOException with stream:   Then I select the "NEU" filter option from the dropdown             # Org.douglas.stepDefinitions.ParfumStep.iSelectTheFilterOption(java.lang.String)
+
+
+# Created at 2025-02-22T19:38:58.586
+Unexpected IOException with stream:   Then I verify the filter option from dropdown                       # Org.douglas.stepDefinitions.ParfumStep.verifyDropDownFilter()
+
+
+# Created at 2025-02-22T19:38:58.591
+Unexpected IOException with stream: Error capturing screenshot for scenario: Verify the "NEU" filter option in Aktionen dropdown
+
+
+# Created at 2025-02-22T19:38:58.593
+Unexpected IOException with stream: org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1729dca62ceb900459a9699b253c5236, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58305}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58305/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1729dca62ceb900459a9699b253c5236
+
+# Created at 2025-02-22T19:38:58.594
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.595
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+
+# Created at 2025-02-22T19:38:58.596
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.597
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+
+# Created at 2025-02-22T19:38:58.598
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.598
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+
+# Created at 2025-02-22T19:38:58.601
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.602
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+
+# Created at 2025-02-22T19:38:58.603
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.604
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+
+# Created at 2025-02-22T19:38:58.605
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.605
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+
+# Created at 2025-02-22T19:38:58.607
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.607
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+
+# Created at 2025-02-22T19:38:58.608
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.608
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+
+# Created at 2025-02-22T19:38:58.609
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.610
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+
+# Created at 2025-02-22T19:38:58.611
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.612
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+
+# Created at 2025-02-22T19:38:58.613
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.613
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+
+# Created at 2025-02-22T19:38:58.614
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.616
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+
+# Created at 2025-02-22T19:38:58.618
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.620
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:334)
+
+# Created at 2025-02-22T19:38:58.621
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.622
+Unexpected IOException with stream: 	at Org.douglas.hooks.DouglasTest.addScreenshot(DouglasTest.java:37)
+
+# Created at 2025-02-22T19:38:58.622
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.623
+Unexpected IOException with stream: 	at Org.douglas.hooks.DouglasTest.tearDown(DouglasTest.java:50)
+
+# Created at 2025-02-22T19:38:58.625
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.626
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+# Created at 2025-02-22T19:38:58.627
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.628
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+# Created at 2025-02-22T19:38:58.630
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.631
+Unexpected IOException with stream: 	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+
+# Created at 2025-02-22T19:38:58.633
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.634
+Unexpected IOException with stream: 	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+
+# Created at 2025-02-22T19:38:58.634
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.635
+Unexpected IOException with stream: 	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+
+# Created at 2025-02-22T19:38:58.636
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.637
+Unexpected IOException with stream: 	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:68)
+
+# Created at 2025-02-22T19:38:58.638
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.639
+Unexpected IOException with stream: 	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:47)
+
+# Created at 2025-02-22T19:38:58.639
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.641
+Unexpected IOException with stream: 	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+
+# Created at 2025-02-22T19:38:58.642
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.643
+Unexpected IOException with stream: 	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+
+# Created at 2025-02-22T19:38:58.644
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.644
+Unexpected IOException with stream: 	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+
+# Created at 2025-02-22T19:38:58.645
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.646
+Unexpected IOException with stream: 	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+
+# Created at 2025-02-22T19:38:58.648
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.650
+Unexpected IOException with stream: 	at io.cucumber.core.runner.TestCase.run(TestCase.java:90)
+
+# Created at 2025-02-22T19:38:58.652
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.652
+Unexpected IOException with stream: 	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+
+# Created at 2025-02-22T19:38:58.654
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.655
+Unexpected IOException with stream: 	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
+
+# Created at 2025-02-22T19:38:58.656
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.657
+Unexpected IOException with stream: 	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+
+# Created at 2025-02-22T19:38:58.659
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.659
+Unexpected IOException with stream: 	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+
+# Created at 2025-02-22T19:38:58.660
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.660
+Unexpected IOException with stream: 	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+
+# Created at 2025-02-22T19:38:58.661
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.661
+Unexpected IOException with stream: 	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+
+# Created at 2025-02-22T19:38:58.663
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.666
+Unexpected IOException with stream: 	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+
+# Created at 2025-02-22T19:38:58.667
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.667
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+# Created at 2025-02-22T19:38:58.669
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.669
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+# Created at 2025-02-22T19:38:58.670
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.670
+Unexpected IOException with stream: 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+
+# Created at 2025-02-22T19:38:58.672
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.672
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+
+# Created at 2025-02-22T19:38:58.673
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.675
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+
+# Created at 2025-02-22T19:38:58.676
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.676
+Unexpected IOException with stream: 	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+
+# Created at 2025-02-22T19:38:58.677
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.678
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+
+# Created at 2025-02-22T19:38:58.679
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.679
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+
+# Created at 2025-02-22T19:38:58.680
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.682
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+
+# Created at 2025-02-22T19:38:58.683
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.683
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+
+# Created at 2025-02-22T19:38:58.684
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.684
+Unexpected IOException with stream: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+# Created at 2025-02-22T19:38:58.686
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.687
+Unexpected IOException with stream: 	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+
+# Created at 2025-02-22T19:38:58.687
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.688
+Unexpected IOException with stream: 	at org.testng.TestRunner.run(TestRunner.java:614)
+
+# Created at 2025-02-22T19:38:58.688
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.689
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+
+# Created at 2025-02-22T19:38:58.690
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.690
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+
+# Created at 2025-02-22T19:38:58.692
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.692
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+
+# Created at 2025-02-22T19:38:58.693
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.694
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+
+# Created at 2025-02-22T19:38:58.694
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.694
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+
+# Created at 2025-02-22T19:38:58.695
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.696
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+
+# Created at 2025-02-22T19:38:58.697
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.697
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+
+# Created at 2025-02-22T19:38:58.698
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.698
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+
+# Created at 2025-02-22T19:38:58.700
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.701
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuites(TestNG.java:1112)
+
+# Created at 2025-02-22T19:38:58.702
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.703
+Unexpected IOException with stream: 	at org.testng.TestNG.run(TestNG.java:1079)
+
+# Created at 2025-02-22T19:38:58.704
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.705
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+
+# Created at 2025-02-22T19:38:58.706
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.707
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+
+# Created at 2025-02-22T19:38:58.707
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.708
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+
+# Created at 2025-02-22T19:38:58.709
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.709
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2025-02-22T19:38:58.710
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.711
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2025-02-22T19:38:58.711
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.713
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2025-02-22T19:38:58.714
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.714
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2025-02-22T19:38:58.715
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:38:58.747
+Unexpected IOException: 8,1,Org.douglas.testRunner.FailedRun,runScenario(Org.douglas.testRunner.FailedRun),null,invalid session id\000ABuild info: version: '4.28.1'\002C revision: '73f5ad48a2'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '23.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [1729dca62ceb900459a9699b253c5236\002C getCurrentUrl {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 133.0.6943.127\002C chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b...\002C userDataDir: C:\005CUsers\005CDELL\005CAppData\005CLocal...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:58305}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:58305/devtoo...\002C se:cdpVersion: 133.0.6943.127\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 1729dca62ceb900459a9699b253c5236,null,invalid session id\000ABuild info: version: '4.28.1'\002C revision: '73f5ad48a2'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '23.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [1729dca62ceb900459a9699b253c5236\002C getCurrentUrl {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 133.0.6943.127\002C chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b...\002C userDataDir: C:\005CUsers\005CDELL\005CAppData\005CLocal...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:58305}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:58305/devtoo...\002C se:cdpVersion: 133.0.6943.127\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 1729dca62ceb900459a9699b253c5236,FailedRun.runScenario \00BB NoSuchSession invalid session id\000ABuild info: version: ...,org.openqa.selenium.NoSuchSessionException: \000Ainvalid session id\000ABuild info: version: '4.28.1'\002C revision: '73f5ad48a2'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '23.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [1729dca62ceb900459a9699b253c5236\002C getCurrentUrl {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 133.0.6943.127\002C chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b...\002C userDataDir: C:\005CUsers\005CDELL\005CAppData\005CLocal...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:58305}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:58305/devtoo...\002C se:cdpVersion: 133.0.6943.127\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 1729dca62ceb900459a9699b253c5236\000A
+
+
+# Created at 2025-02-22T19:38:58.748
+Unexpected IOException: 5,1,Org.douglas.testRunner.FailedRun,runScenario(Org.douglas.testRunner.FailedRun),cucumber,null,null
+
+
+# Created at 2025-02-22T19:38:58.753
+Unexpected IOException with stream: 
+Scenario Outline: Verify the "Limitiert" filter option in Aktionen dropdown # src/test/resources/features/parfumPage.feature:18
+
+
+# Created at 2025-02-22T19:39:00.277
+Unexpected IOException with stream: Feb 22, 2025 7:39:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
+
+
+# Created at 2025-02-22T19:39:01.066
+Unexpected IOException with stream:   Given I navigate to the website                                           # Org.douglas.stepDefinitions.ParfumStep.launchWebURL()
+
+
+# Created at 2025-02-22T19:39:06.109
+Unexpected IOException with stream:   And I accept the cookie consent                                           # Org.douglas.stepDefinitions.ParfumStep.acceptCookieConsent()
+
+
+# Created at 2025-02-22T19:39:06.259
+Unexpected IOException with stream:   When I click on "PARFUM" tab                                              # Org.douglas.stepDefinitions.ParfumStep.clickOnTab(java.lang.String)
+
+
+# Created at 2025-02-22T19:39:06.265
+Unexpected IOException with stream:   Then I verify that I was landed on the parfum page                        # Org.douglas.stepDefinitions.ParfumStep.verifyUserOnParfumPage()
+      org.openqa.selenium.NoSuchSessionException: invalid session id
+      Build info: version: '4.28.1', revision: '73f5ad48a2'
+      System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Command: [58832b96be8024fec41b639385830e9d, getCurrentUrl {}]
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58332/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+      Session ID: 58832b96be8024fec41b639385830e9d
+      	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+      	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+      	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+      	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:325)
+      	at Org.douglas.pageObjects.ParfumPage.getParfumPageUrl(ParfumPage.java:58)
+      	at Org.douglas.stepDefinitions.ParfumStep.verifyUserOnParfumPage(ParfumStep.java:45)
+      	at ✽.I verify that I was landed on the parfum page(file:///C:/Users/DELL/IdeaProjects/Selenium_BDD_JAVA_Douglas/DouglasTestAutomation/src/test/resources/features/parfumPage.feature:9)
+
+
+# Created at 2025-02-22T19:39:06.278
+Unexpected IOException with stream:   When I select the "Aktionen" dropdown                                     # Org.douglas.stepDefinitions.ParfumStep.iSelectTheDropdown(java.lang.String)
+
+
+# Created at 2025-02-22T19:39:06.280
+Unexpected IOException with stream:   Then I select the "Limitiert" filter option from the dropdown             # Org.douglas.stepDefinitions.ParfumStep.iSelectTheFilterOption(java.lang.String)
+
+
+# Created at 2025-02-22T19:39:06.281
+Unexpected IOException with stream:   Then I verify the filter option from dropdown                             # Org.douglas.stepDefinitions.ParfumStep.verifyDropDownFilter()
+
+
+# Created at 2025-02-22T19:39:06.285
+Unexpected IOException with stream: Error capturing screenshot for scenario: Verify the "Limitiert" filter option in Aktionen dropdown
+
+
+# Created at 2025-02-22T19:39:06.286
+Unexpected IOException with stream: org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [58832b96be8024fec41b639385830e9d, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58332/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 58832b96be8024fec41b639385830e9d
+
+# Created at 2025-02-22T19:39:06.287
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.288
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+
+# Created at 2025-02-22T19:39:06.288
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.289
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+
+# Created at 2025-02-22T19:39:06.290
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.290
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+
+# Created at 2025-02-22T19:39:06.291
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.291
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+
+# Created at 2025-02-22T19:39:06.292
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.293
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+
+# Created at 2025-02-22T19:39:06.294
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.294
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+
+# Created at 2025-02-22T19:39:06.295
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.296
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+
+# Created at 2025-02-22T19:39:06.297
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.298
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+
+# Created at 2025-02-22T19:39:06.298
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.299
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+
+# Created at 2025-02-22T19:39:06.300
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.300
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+
+# Created at 2025-02-22T19:39:06.301
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.302
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+
+# Created at 2025-02-22T19:39:06.302
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.303
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+
+# Created at 2025-02-22T19:39:06.303
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.304
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:334)
+
+# Created at 2025-02-22T19:39:06.305
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.305
+Unexpected IOException with stream: 	at Org.douglas.hooks.DouglasTest.addScreenshot(DouglasTest.java:37)
+
+# Created at 2025-02-22T19:39:06.306
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.307
+Unexpected IOException with stream: 	at Org.douglas.hooks.DouglasTest.tearDown(DouglasTest.java:50)
+
+# Created at 2025-02-22T19:39:06.307
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.309
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+# Created at 2025-02-22T19:39:06.309
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.310
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+# Created at 2025-02-22T19:39:06.310
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.310
+Unexpected IOException with stream: 	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+
+# Created at 2025-02-22T19:39:06.311
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.313
+Unexpected IOException with stream: 	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+
+# Created at 2025-02-22T19:39:06.313
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.314
+Unexpected IOException with stream: 	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+
+# Created at 2025-02-22T19:39:06.315
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.315
+Unexpected IOException with stream: 	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:68)
+
+# Created at 2025-02-22T19:39:06.316
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.316
+Unexpected IOException with stream: 	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:47)
+
+# Created at 2025-02-22T19:39:06.317
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.318
+Unexpected IOException with stream: 	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+
+# Created at 2025-02-22T19:39:06.319
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.319
+Unexpected IOException with stream: 	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+
+# Created at 2025-02-22T19:39:06.320
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.320
+Unexpected IOException with stream: 	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+
+# Created at 2025-02-22T19:39:06.320
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.322
+Unexpected IOException with stream: 	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+
+# Created at 2025-02-22T19:39:06.323
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.323
+Unexpected IOException with stream: 	at io.cucumber.core.runner.TestCase.run(TestCase.java:90)
+
+# Created at 2025-02-22T19:39:06.324
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.324
+Unexpected IOException with stream: 	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+
+# Created at 2025-02-22T19:39:06.325
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.325
+Unexpected IOException with stream: 	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
+
+# Created at 2025-02-22T19:39:06.327
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.327
+Unexpected IOException with stream: 	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+
+# Created at 2025-02-22T19:39:06.327
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.327
+Unexpected IOException with stream: 	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+
+# Created at 2025-02-22T19:39:06.329
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.330
+Unexpected IOException with stream: 	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+
+# Created at 2025-02-22T19:39:06.331
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.331
+Unexpected IOException with stream: 	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+
+# Created at 2025-02-22T19:39:06.332
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.332
+Unexpected IOException with stream: 	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+
+# Created at 2025-02-22T19:39:06.333
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.334
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+# Created at 2025-02-22T19:39:06.334
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.335
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+# Created at 2025-02-22T19:39:06.335
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.336
+Unexpected IOException with stream: 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+
+# Created at 2025-02-22T19:39:06.336
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.338
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+
+# Created at 2025-02-22T19:39:06.338
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.338
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+
+# Created at 2025-02-22T19:39:06.339
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.340
+Unexpected IOException with stream: 	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+
+# Created at 2025-02-22T19:39:06.340
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.340
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+
+# Created at 2025-02-22T19:39:06.341
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.341
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+
+# Created at 2025-02-22T19:39:06.342
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.342
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+
+# Created at 2025-02-22T19:39:06.344
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.344
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+
+# Created at 2025-02-22T19:39:06.345
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.346
+Unexpected IOException with stream: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+# Created at 2025-02-22T19:39:06.347
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.347
+Unexpected IOException with stream: 	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+
+# Created at 2025-02-22T19:39:06.347
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.349
+Unexpected IOException with stream: 	at org.testng.TestRunner.run(TestRunner.java:614)
+
+# Created at 2025-02-22T19:39:06.350
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.350
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+
+# Created at 2025-02-22T19:39:06.350
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.351
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+
+# Created at 2025-02-22T19:39:06.352
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.352
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+
+# Created at 2025-02-22T19:39:06.353
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.355
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+
+# Created at 2025-02-22T19:39:06.355
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.356
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+
+# Created at 2025-02-22T19:39:06.356
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.357
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+
+# Created at 2025-02-22T19:39:06.357
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.358
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+
+# Created at 2025-02-22T19:39:06.358
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.358
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+
+# Created at 2025-02-22T19:39:06.360
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.361
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuites(TestNG.java:1112)
+
+# Created at 2025-02-22T19:39:06.361
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.362
+Unexpected IOException with stream: 	at org.testng.TestNG.run(TestNG.java:1079)
+
+# Created at 2025-02-22T19:39:06.362
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.363
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+
+# Created at 2025-02-22T19:39:06.363
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.364
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+
+# Created at 2025-02-22T19:39:06.364
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.365
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+
+# Created at 2025-02-22T19:39:06.365
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.367
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2025-02-22T19:39:06.367
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.368
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2025-02-22T19:39:06.368
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.369
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2025-02-22T19:39:06.369
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.371
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2025-02-22T19:39:06.371
+Unexpected IOException with stream: 
+
+
+# Created at 2025-02-22T19:39:06.398
+Unexpected IOException: 8,1,Org.douglas.testRunner.FailedRun,runScenario(Org.douglas.testRunner.FailedRun),null,invalid session id\000ABuild info: version: '4.28.1'\002C revision: '73f5ad48a2'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '23.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [58832b96be8024fec41b639385830e9d\002C getCurrentUrl {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 133.0.6943.127\002C chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b...\002C userDataDir: C:\005CUsers\005CDELL\005CAppData\005CLocal...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:58332}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:58332/devtoo...\002C se:cdpVersion: 133.0.6943.127\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 58832b96be8024fec41b639385830e9d,null,invalid session id\000ABuild info: version: '4.28.1'\002C revision: '73f5ad48a2'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '23.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [58832b96be8024fec41b639385830e9d\002C getCurrentUrl {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 133.0.6943.127\002C chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b...\002C userDataDir: C:\005CUsers\005CDELL\005CAppData\005CLocal...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:58332}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:58332/devtoo...\002C se:cdpVersion: 133.0.6943.127\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 58832b96be8024fec41b639385830e9d,FailedRun.runScenario \00BB NoSuchSession invalid session id\000ABuild info: version: ...,org.openqa.selenium.NoSuchSessionException: \000Ainvalid session id\000ABuild info: version: '4.28.1'\002C revision: '73f5ad48a2'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '23.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [58832b96be8024fec41b639385830e9d\002C getCurrentUrl {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 133.0.6943.127\002C chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b...\002C userDataDir: C:\005CUsers\005CDELL\005CAppData\005CLocal...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:58332}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:58332/devtoo...\002C se:cdpVersion: 133.0.6943.127\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 58832b96be8024fec41b639385830e9d\000A
+
+
+# Created at 2025-02-22T19:39:06.401
+Unexpected IOException: 5,1,Org.douglas.testRunner.FailedRun,runScenario(Org.douglas.testRunner.FailedRun),cucumber,null,null
+
+
+# Created at 2025-02-22T19:39:06.407
+Unexpected IOException with stream: 
+Scenario: Verify the title on parfum page        # src/test/resources/features/parfumPage.feature:20
+
+
+# Created at 2025-02-22T19:39:07.841
+Unexpected IOException with stream: Feb 22, 2025 7:39:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
+
+
+# Created at 2025-02-22T19:39:08.194
+Unexpected IOException with stream:   Given I navigate to the website                # Org.douglas.stepDefinitions.ParfumStep.launchWebURL()
+
+
