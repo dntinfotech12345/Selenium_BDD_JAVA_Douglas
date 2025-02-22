@@ -11,10 +11,10 @@ import java.time.Duration;
 
 public class WaitHelper {
 
-    Logger logger = LoggerHelper.getLogger(WaitHelper.class);
     public WebDriver driver;
     public WebDriverWait wait;
     public long timeOutInSeconds;
+    Logger logger = LoggerHelper.getLogger(WaitHelper.class);
 
     public WaitHelper(WebDriver driver, long timeOutInSeconds) {
         this.driver = driver;
@@ -32,6 +32,7 @@ public class WaitHelper {
         }
         return element;
     }
+
     public WebElement waitForElementToClick(WebElement element) {
         logger.info("waiting for element to click .{}", element);
         try {

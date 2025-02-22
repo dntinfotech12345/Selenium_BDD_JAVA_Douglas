@@ -1,6 +1,7 @@
 package Org.douglas.pageObjects;
 
 import Org.douglas.helper.LoggerHelper;
+import Org.douglas.util.ActionUtil;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -13,12 +14,10 @@ import java.time.Duration;
 import java.util.List;
 
 public class ParfumPage extends BasePage {
-    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 
-    public ParfumPage(WebDriver driver) {
-        super(driver);
-    }
-
+    private static final org.apache.logging.log4j.Logger logger = LoggerHelper.getLogger(ParfumPage.class);
+    ActionUtil actionUtil;
+    private WebDriverWait wait;
     @FindBy(xpath = "//div[@class='facet__title' and text()= '{dropdownOption}']")
     private WebElement parfumPageDropdown;
 
@@ -49,32 +48,37 @@ public class ParfumPage extends BasePage {
     @FindBy(xpath = "//*[@id='main-content']/div/div/div[1]/div/div[2]/div[3]/div[1]/div[2]/button[2]")
     private WebElement selectedFilterValue;
 
+    public ParfumPage(WebDriver driver) {
+        super(driver);
+        wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+        actionUtil = new ActionUtil(driver);
+    }
 
     public String getParfumPageUrl() {
         return driver.getCurrentUrl();
     }
 
+
     public void selectParfumPageDropdown(String dropdownOption) {
         try {
             wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[text()='Deine Meinung ist gefragt']")));
             randonPopupOnPerfumePage.click();
+
+
+            logger.info("Dropdown filter option '" + dropdownOption + "' selected.");
         } catch (Exception e) {
-            e.printStackTrace();
+            logger.error("Failed to select dropdown option '" + dropdownOption + "': " + e.getMessage(), e);
         }
-        WebElement dropdown = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='facet__title' and text()='" + dropdownOption + "']")));
-        dropdown.click();
-        LoggerHelper.getLogger(ParfumPage.class).info("Dropdown filter option '" + dropdownOption + "' selected");
+        WebElement dropdown = driver.findElement(By.xpath("//div[@class='facet__title' and text()='" + dropdownOption + "']"));
+        actionUtil.safeClick(dropdown);
     }
 
     public void selectDropdownOption(String filterOption) {
-        WebElement filterOpt = wait.until(ExpectedConditions.elementToBeClickable(
-                By.xpath("//div[@class='facet-option__label']//div[text()='" + filterOption + "']")
-        ));
-        filterOpt.click();
+        WebElement filterOpt = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='facet-option__label']//div[text()='" + filterOption + "']")));
+        actionUtil.safeClick(filterOpt);  // Use safeClick here for handling exceptions
     }
 
     public void getTheFilterTextAndVerify(String actualFilterText) {
-
         wait.until(ExpectedConditions.visibilityOf(appliedFilters));
 
         List<WebElement> filters = driver.findElements(By.xpath("//button[@class='selected-facets__value']"));
@@ -91,7 +95,6 @@ public class ParfumPage extends BasePage {
         wait.until(ExpectedConditions.elementToBeClickable(aktionenTitle));
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView(true);", aktionenTitle);
-
     }
 
     public String getTitle() {
